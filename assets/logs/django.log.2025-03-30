@@ -1,0 +1,859 @@
+INFO 2025-03-30 19:24:30,319 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 19:24:50,883 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-03-30 19:24:51,257 basehttp "GET /uz/admin/ HTTP/1.1" 200 104749
+INFO 2025-03-30 19:24:51,360 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-30 19:24:51,375 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-30 19:24:51,404 basehttp "GET /static/css/tailwind.css HTTP/1.1" 200 15588
+INFO 2025-03-30 19:24:51,464 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 200 4647
+INFO 2025-03-30 19:24:51,474 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 200 157275
+INFO 2025-03-30 19:24:51,519 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 200 50918
+INFO 2025-03-30 19:24:51,536 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 200 200633
+INFO 2025-03-30 19:24:51,578 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 200 7736
+INFO 2025-03-30 19:24:51,586 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 200 31764
+INFO 2025-03-30 19:24:51,587 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 200 27176
+INFO 2025-03-30 19:24:51,677 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 200 15524
+INFO 2025-03-30 19:24:51,747 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-30 19:24:51,955 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-30 19:24:51,991 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 200 44659
+INFO 2025-03-30 19:24:51,991 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 200 37891
+INFO 2025-03-30 19:24:53,341 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-30 19:24:53,342 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-30 19:24:53,347 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 200 256424
+INFO 2025-03-30 19:24:53,600 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-30 19:24:59,477 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 19:24:59,684 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 19:24:59,685 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9048
+INFO 2025-03-30 19:24:59,708 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-30 19:24:59,710 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-30 19:24:59,719 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-30 19:24:59,725 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-30 19:24:59,824 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-30 19:24:59,825 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-30 19:24:59,836 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-30 19:25:30,947 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-30 19:25:33,322 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 19:25:37,882 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52089
+INFO 2025-03-30 19:25:38,081 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 19:25:38,916 basehttp "GET /static/images/favicon.ico HTTP/1.1" 200 15406
+INFO 2025-03-30 19:25:42,336 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52089
+INFO 2025-03-30 19:25:42,494 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 19:25:50,694 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-30 19:25:52,713 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 19:25:55,226 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52090
+INFO 2025-03-30 19:25:55,355 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 19:26:15,272 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-30 19:29:36,192 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 19:29:38,579 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 19:29:38,865 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 19:29:45,094 basehttp "GET /uz/admin/ HTTP/1.1" 200 104807
+INFO 2025-03-30 19:29:52,876 basehttp "POST /uz/admin/logout/ HTTP/1.1" 200 5820
+INFO 2025-03-30 19:31:10,080 basehttp "GET /uz/admin/ HTTP/1.1" 302 0
+INFO 2025-03-30 19:31:10,191 basehttp "GET /uz/admin/login/?next=/uz/admin/ HTTP/1.1" 200 11132
+INFO 2025-03-30 19:31:10,601 basehttp "GET /static/images/login.png HTTP/1.1" 200 171031
+INFO 2025-03-30 19:31:15,327 basehttp "GET / HTTP/1.1" 200 4583
+INFO 2025-03-30 19:31:15,524 basehttp "GET /static/css/styles.css HTTP/1.1" 200 5440
+INFO 2025-03-30 19:31:15,622 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-30 19:31:15,623 basehttp "GET /static/images/telegram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-30 19:31:15,623 basehttp "GET /static/images/github-icon.svg HTTP/1.1" 200 5303
+INFO 2025-03-30 19:31:15,626 basehttp "GET /static/images/instagram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-30 19:33:13,801 basehttp "GET /uz/admin/ HTTP/1.1" 302 0
+INFO 2025-03-30 19:33:13,859 basehttp "GET /uz/admin/login/?next=/uz/admin/ HTTP/1.1" 200 11132
+INFO 2025-03-30 19:33:18,827 basehttp "POST /uz/admin/login/?next=/uz/admin/ HTTP/1.1" 302 0
+INFO 2025-03-30 19:33:19,372 basehttp "GET /uz/admin/ HTTP/1.1" 200 104807
+INFO 2025-03-30 19:37:55,918 basehttp "GET /uz/admin/ HTTP/1.1" 200 101381
+INFO 2025-03-30 19:38:14,483 basehttp "GET /uz/admin/ HTTP/1.1" 200 97475
+INFO 2025-03-30 19:38:49,862 basehttp "GET /uz/admin/ HTTP/1.1" 200 84797
+INFO 2025-03-30 19:39:28,681 basehttp "GET /uz/admin/ HTTP/1.1" 200 89688
+WARNING 2025-03-30 19:39:29,173 log Not Found: /docs/images/people/profile-picture-1.jpg
+WARNING 2025-03-30 19:39:29,198 log Not Found: /docs/images/people/profile-picture-3.jpg
+WARNING 2025-03-30 19:39:29,209 basehttp "GET /docs/images/people/profile-picture-3.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:39:29,208 basehttp "GET /docs/images/people/profile-picture-1.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:39:29,284 log Not Found: /docs/images/people/profile-picture-2.jpg
+WARNING 2025-03-30 19:39:29,301 basehttp "GET /docs/images/people/profile-picture-2.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:39:29,362 log Not Found: /docs/images/people/profile-picture-4.jpg
+WARNING 2025-03-30 19:39:29,381 basehttp "GET /docs/images/people/profile-picture-4.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:39:29,386 log Not Found: /docs/images/people/profile-picture-5.jpg
+WARNING 2025-03-30 19:39:29,391 basehttp "GET /docs/images/people/profile-picture-5.jpg HTTP/1.1" 404 3846
+ERROR 2025-03-30 19:40:45,651 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 228, in do_component
+    nodelist = parser.parse(("endcomponent",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 60: 'static', expected 'endcomponent'. Did you forget to register or load this tag?
+ERROR 2025-03-30 19:40:45,665 basehttp "GET /uz/admin/ HTTP/1.1" 500 274232
+WARNING 2025-03-30 19:40:46,574 log Not Found: /favicon.ico
+WARNING 2025-03-30 19:40:46,575 basehttp "GET /favicon.ico HTTP/1.1" 404 3759
+INFO 2025-03-30 19:42:36,955 basehttp "GET /uz/admin/ HTTP/1.1" 200 89672
+WARNING 2025-03-30 19:42:37,317 log Not Found: /docs/images/people/profile-picture-2.jpg
+WARNING 2025-03-30 19:42:37,344 basehttp "GET /docs/images/people/profile-picture-2.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:42:37,358 log Not Found: /docs/images/people/profile-picture-3.jpg
+WARNING 2025-03-30 19:42:37,411 basehttp "GET /docs/images/people/profile-picture-3.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:42:37,421 log Not Found: /docs/images/people/profile-picture-5.jpg
+WARNING 2025-03-30 19:42:37,447 log Not Found: /docs/images/people/profile-picture-4.jpg
+WARNING 2025-03-30 19:42:37,451 basehttp "GET /docs/images/people/profile-picture-5.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:42:37,454 basehttp "GET /docs/images/people/profile-picture-4.jpg HTTP/1.1" 404 3846
+INFO 2025-03-30 19:43:05,964 basehttp "GET /uz/admin/ HTTP/1.1" 200 89676
+WARNING 2025-03-30 19:43:06,192 log Not Found: /docs/images/people/profile-picture-3.jpg
+WARNING 2025-03-30 19:43:06,206 log Not Found: /docs/images/people/profile-picture-2.jpg
+WARNING 2025-03-30 19:43:06,212 basehttp "GET /docs/images/people/profile-picture-2.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:43:06,208 basehttp "GET /docs/images/people/profile-picture-3.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:43:06,299 log Not Found: /docs/images/people/profile-picture-5.jpg
+WARNING 2025-03-30 19:43:06,300 log Not Found: /docs/images/people/profile-picture-4.jpg
+WARNING 2025-03-30 19:43:06,304 basehttp "GET /docs/images/people/profile-picture-4.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:43:06,301 basehttp "GET /docs/images/people/profile-picture-5.jpg HTTP/1.1" 404 3846
+INFO 2025-03-30 19:43:44,329 basehttp "GET /uz/admin/ HTTP/1.1" 200 89676
+WARNING 2025-03-30 19:43:44,467 log Not Found: /docs/images/people/profile-picture-2.jpg
+WARNING 2025-03-30 19:43:44,471 basehttp "GET /docs/images/people/profile-picture-2.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:43:44,470 log Not Found: /docs/images/people/profile-picture-3.jpg
+WARNING 2025-03-30 19:43:44,478 basehttp "GET /docs/images/people/profile-picture-3.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:43:44,611 log Not Found: /docs/images/people/profile-picture-5.jpg
+WARNING 2025-03-30 19:43:44,620 basehttp "GET /docs/images/people/profile-picture-5.jpg HTTP/1.1" 404 3846
+WARNING 2025-03-30 19:43:44,619 log Not Found: /docs/images/people/profile-picture-4.jpg
+WARNING 2025-03-30 19:43:44,626 basehttp "GET /docs/images/people/profile-picture-4.jpg HTTP/1.1" 404 3846
+INFO 2025-03-30 19:45:40,990 basehttp "GET /uz/admin/ HTTP/1.1" 200 85852
+INFO 2025-03-30 19:45:41,150 basehttp "GET /static/images/user_profile.png HTTP/1.1" 200 4072
+INFO 2025-03-30 19:47:02,593 basehttp "GET /uz/admin/ HTTP/1.1" 200 85884
+INFO 2025-03-30 19:47:02,758 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:47:30,985 basehttp "GET /uz/admin/ HTTP/1.1" 200 85902
+INFO 2025-03-30 19:47:31,145 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:48:00,053 basehttp "GET /uz/admin/ HTTP/1.1" 200 85920
+INFO 2025-03-30 19:48:00,177 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:50:37,910 basehttp "GET /uz/admin/ HTTP/1.1" 200 85935
+INFO 2025-03-30 19:50:38,209 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:51:08,785 basehttp "GET /uz/admin/ HTTP/1.1" 200 85935
+INFO 2025-03-30 19:51:55,930 basehttp "GET /uz/admin/ HTTP/1.1" 200 85959
+INFO 2025-03-30 19:51:56,038 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:52:15,420 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 19:52:15,577 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 19:52:17,470 basehttp "GET /uz/admin/ HTTP/1.1" 200 85959
+INFO 2025-03-30 19:53:30,489 basehttp "GET /uz/admin/ HTTP/1.1" 200 86101
+INFO 2025-03-30 19:53:30,634 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:53:40,135 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+INFO 2025-03-30 19:53:40,239 basehttp "GET /en/admin/ HTTP/1.1" 200 86085
+INFO 2025-03-30 19:53:44,801 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+INFO 2025-03-30 19:53:44,901 basehttp "GET /uz/admin/ HTTP/1.1" 200 86101
+INFO 2025-03-30 19:55:00,240 basehttp "GET /uz/admin/ HTTP/1.1" 200 86269
+INFO 2025-03-30 19:55:00,402 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:55:53,302 basehttp "GET /uz/admin/ HTTP/1.1" 200 86326
+INFO 2025-03-30 19:56:37,372 basehttp "GET /uz/admin/ HTTP/1.1" 200 86346
+INFO 2025-03-30 19:56:37,944 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 19:57:35,033 basehttp "GET /uz/admin/ HTTP/1.1" 200 87473
+INFO 2025-03-30 20:08:09,603 basehttp "GET /uz/admin/ HTTP/1.1" 200 87566
+INFO 2025-03-30 20:08:09,910 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 20:10:38,693 basehttp "GET /uz/admin/ HTTP/1.1" 200 87566
+INFO 2025-03-30 20:10:38,814 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 20:11:01,073 basehttp "GET /uz/admin/ HTTP/1.1" 200 87595
+INFO 2025-03-30 20:11:17,158 basehttp "GET /uz/admin/ HTTP/1.1" 200 84934
+INFO 2025-03-30 20:12:34,495 basehttp "GET /uz/admin/ HTTP/1.1" 200 87222
+INFO 2025-03-30 20:13:05,900 basehttp "GET /uz/admin/ HTTP/1.1" 200 87486
+INFO 2025-03-30 20:18:36,234 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-30 20:21:48,526 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:21:54,359 basehttp "GET /uz/admin/ HTTP/1.1" 200 88925
+INFO 2025-03-30 20:21:54,547 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+WARNING 2025-03-30 20:21:54,701 basehttp "GET /static/canvasjs.min.js HTTP/1.1" 404 1972
+INFO 2025-03-30 20:22:49,868 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:22:52,041 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:22:56,375 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:22:58,417 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:23:00,670 basehttp "GET /uz/admin/ HTTP/1.1" 200 87656
+INFO 2025-03-30 20:24:24,912 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:24:27,013 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:24:27,734 basehttp "GET /uz/admin/ HTTP/1.1" 200 83326
+INFO 2025-03-30 20:24:35,454 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:24:37,372 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:25:05,564 basehttp "GET /uz/admin/ HTTP/1.1" 200 36591
+INFO 2025-03-30 20:25:28,286 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:25:30,240 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:25:31,467 basehttp "GET /uz/admin/ HTTP/1.1" 200 34395
+INFO 2025-03-30 20:25:45,488 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:25:47,801 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:25:49,503 basehttp "GET /uz/admin/ HTTP/1.1" 200 33794
+INFO 2025-03-30 20:25:49,800 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 20:25:51,483 basehttp "GET / HTTP/1.1" 200 4583
+INFO 2025-03-30 20:25:54,396 basehttp "GET /uz/admin/ HTTP/1.1" 200 33794
+INFO 2025-03-30 20:26:06,774 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:26:08,890 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:26:13,928 basehttp "GET /uz/admin/ HTTP/1.1" 200 32626
+INFO 2025-03-30 20:30:06,465 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:30:09,283 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:30:27,055 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:30:28,972 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:30:32,382 basehttp "GET /uz/admin/ HTTP/1.1" 200 32622
+INFO 2025-03-30 20:30:32,592 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 20:30:41,969 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 20:30:43,961 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 20:30:45,137 basehttp "GET /uz/admin/ HTTP/1.1" 200 32622
+INFO 2025-03-30 20:30:48,931 basehttp "GET /uz/admin/ HTTP/1.1" 200 32622
+INFO 2025-03-30 20:30:50,134 basehttp "GET /uz/admin/ HTTP/1.1" 200 32622
+INFO 2025-03-30 20:30:51,526 basehttp "GET /uz/admin/ HTTP/1.1" 200 32622
+INFO 2025-03-30 21:07:37,470 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:07:45,781 basehttp "GET /uz/admin/ HTTP/1.1" 200 32622
+INFO 2025-03-30 21:07:46,055 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 21:10:13,946 basehttp "GET /uz/admin/ HTTP/1.1" 200 32242
+INFO 2025-03-30 21:10:39,849 basehttp "GET /uz/admin/ HTTP/1.1" 200 32243
+INFO 2025-03-30 21:12:16,423 basehttp "GET /uz/admin/ HTTP/1.1" 200 32228
+INFO 2025-03-30 21:14:22,136 basehttp "GET /uz/admin/ HTTP/1.1" 200 32228
+INFO 2025-03-30 21:14:50,706 basehttp "GET /uz/admin/ HTTP/1.1" 200 32237
+INFO 2025-03-30 21:15:09,303 basehttp "GET /uz/admin/ HTTP/1.1" 200 32244
+INFO 2025-03-30 21:15:32,429 basehttp "GET /uz/admin/ HTTP/1.1" 200 32020
+INFO 2025-03-30 21:19:22,171 basehttp "GET /uz/admin/ HTTP/1.1" 200 32020
+INFO 2025-03-30 21:19:22,397 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 21:19:54,958 basehttp "GET /uz/admin/ HTTP/1.1" 200 32020
+INFO 2025-03-30 21:20:52,675 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:20:55,923 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:20:57,709 basehttp "GET /uz/admin/ HTTP/1.1" 200 30724
+INFO 2025-03-30 21:21:09,733 basehttp "GET /uz/admin/toggle-sidebar/ HTTP/1.1" 200 0
+INFO 2025-03-30 21:21:10,826 basehttp "GET /uz/admin/toggle-sidebar/ HTTP/1.1" 200 0
+INFO 2025-03-30 21:22:38,439 basehttp "GET /uz/admin/ HTTP/1.1" 200 30725
+INFO 2025-03-30 21:26:34,841 basehttp "GET /uz/admin/toggle-sidebar/ HTTP/1.1" 200 0
+INFO 2025-03-30 21:29:09,884 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:29:11,445 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:29:16,499 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:29:19,219 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:34:32,228 basehttp "GET /uz/admin/ HTTP/1.1" 200 29410
+INFO 2025-03-30 21:34:32,439 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 21:34:53,564 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:34:56,158 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:34:57,620 basehttp "GET /uz/admin/ HTTP/1.1" 200 29411
+INFO 2025-03-30 21:35:13,788 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 21:35:14,000 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:35:22,497 basehttp "GET /uz/admin/Bot/telegramuser/1/change/ HTTP/1.1" 200 37062
+INFO 2025-03-30 21:35:22,605 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:35:22,637 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-30 21:35:22,639 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-30 21:35:34,020 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 21:35:34,175 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:35:56,523 basehttp "GET /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 200 35706
+INFO 2025-03-30 21:35:56,646 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:36:39,408 basehttp "POST /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 302 0
+INFO 2025-03-30 21:36:39,516 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 58045
+INFO 2025-03-30 21:36:39,764 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:36:43,442 basehttp "GET /uz/admin/ HTTP/1.1" 200 29411
+INFO 2025-03-30 21:36:46,220 basehttp "GET /uz/admin/ HTTP/1.1" 200 29411
+INFO 2025-03-30 21:40:24,212 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:40:26,271 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:40:28,548 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:40:30,002 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:40:34,388 basehttp "GET /uz/admin/ HTTP/1.1" 200 29411
+INFO 2025-03-30 21:42:40,018 basehttp "GET /uz/admin/ HTTP/1.1" 200 30742
+INFO 2025-03-30 21:42:48,177 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 57608
+INFO 2025-03-30 21:42:48,407 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:42:53,865 basehttp "POST /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 29378
+INFO 2025-03-30 21:42:54,237 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-03-30 21:42:56,074 basehttp "POST /uz/admin/Bot/telegramuser/ HTTP/1.1" 302 0
+INFO 2025-03-30 21:42:56,393 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52441
+INFO 2025-03-30 21:42:56,635 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:42:59,174 basehttp "GET /uz/admin/ HTTP/1.1" 200 29521
+INFO 2025-03-30 21:43:15,636 basehttp "GET /uz/admin/ HTTP/1.1" 200 29521
+INFO 2025-03-30 21:43:18,354 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 21:43:18,529 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:43:22,979 basehttp "GET /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 200 35706
+INFO 2025-03-30 21:43:23,132 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:43:38,949 basehttp "POST /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 302 0
+INFO 2025-03-30 21:43:39,391 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 58045
+INFO 2025-03-30 21:43:39,885 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 21:43:42,245 basehttp "GET /uz/admin/ HTTP/1.1" 200 30742
+INFO 2025-03-30 21:44:27,942 basehttp "GET /uz/admin/ HTTP/1.1" 200 30738
+INFO 2025-03-30 21:45:33,190 basehttp "GET /uz/admin/ HTTP/1.1" 200 30736
+INFO 2025-03-30 21:45:33,356 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 21:46:39,837 basehttp "GET /uz/admin/ HTTP/1.1" 200 30790
+INFO 2025-03-30 21:47:10,959 basehttp "GET /uz/admin/ HTTP/1.1" 200 30766
+INFO 2025-03-30 21:47:27,672 basehttp "GET /uz/admin/ HTTP/1.1" 200 30742
+INFO 2025-03-30 21:47:43,325 basehttp "GET /uz/admin/ HTTP/1.1" 200 30742
+INFO 2025-03-30 21:48:48,035 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:48:50,046 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:49:44,630 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:49:46,535 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:49:48,854 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:49:50,838 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:49:56,279 basehttp "GET /uz/admin/ HTTP/1.1" 200 33306
+INFO 2025-03-30 21:52:17,436 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:52:19,829 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:52:24,323 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:52:26,308 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:52:29,743 basehttp "GET /uz/admin/ HTTP/1.1" 200 33308
+INFO 2025-03-30 21:53:10,399 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:53:13,045 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:53:22,089 basehttp "GET /uz/admin/ HTTP/1.1" 200 33308
+INFO 2025-03-30 21:53:25,447 basehttp "GET /uz/admin/ HTTP/1.1" 200 33308
+INFO 2025-03-30 21:55:34,730 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:55:36,918 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:55:49,294 basehttp "GET /uz/admin/ HTTP/1.1" 200 33313
+INFO 2025-03-30 21:57:07,007 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 21:57:09,702 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 21:58:05,192 basehttp "GET /uz/admin/ HTTP/1.1" 200 33361
+INFO 2025-03-30 21:58:05,388 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 21:59:11,819 basehttp "GET /uz/admin/ HTTP/1.1" 200 33346
+ERROR 2025-03-30 21:59:53,931 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 824, in __init__
+    self.literal = int(var)
+                   ^^^^^^^^
+ValueError: invalid literal for int() with base 10: '_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 835, in __init__
+    self.literal = mark_safe(unescape_string_literal(var))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 231, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/text.py", line 446, in unescape_string_literal
+    raise ValueError("Not a string literal: %r" % s)
+ValueError: Not a string literal: '_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 228, in do_component
+    nodelist = parser.parse(("endcomponent",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 214, in do_component
+    value = token_kwargs(remaining_bits, parser, support_legacy=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1119, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 693, in __init__
+    var_obj = Variable(var)
+              ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 840, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Variables and attributes may not begin with underscores: '_'
+ERROR 2025-03-30 21:59:53,942 basehttp "GET /uz/admin/ HTTP/1.1" 500 310949
+ERROR 2025-03-30 22:00:04,895 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 824, in __init__
+    self.literal = int(var)
+                   ^^^^^^^^
+ValueError: invalid literal for int() with base 10: '_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 835, in __init__
+    self.literal = mark_safe(unescape_string_literal(var))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 231, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/text.py", line 446, in unescape_string_literal
+    raise ValueError("Not a string literal: %r" % s)
+ValueError: Not a string literal: '_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 228, in do_component
+    nodelist = parser.parse(("endcomponent",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 214, in do_component
+    value = token_kwargs(remaining_bits, parser, support_legacy=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1119, in token_kwargs
+    kwargs[key] = parser.compile_filter(value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 693, in __init__
+    var_obj = Variable(var)
+              ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 840, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Variables and attributes may not begin with underscores: '_'
+ERROR 2025-03-30 22:00:04,906 basehttp "GET /uz/admin/ HTTP/1.1" 500 310965
+ERROR 2025-03-30 22:00:33,763 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 228, in do_component
+    nodelist = parser.parse(("endcomponent",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 223, in do_component
+    raise TemplateSyntaxError(f"Unknown argument for {bits[0]} tag: {option}.")
+django.template.exceptions.TemplateSyntaxError: Unknown argument for component tag: {{stats.number}}.
+ERROR 2025-03-30 22:00:33,776 basehttp "GET /uz/admin/ HTTP/1.1" 500 269460
+ERROR 2025-03-30 22:00:45,387 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 228, in do_component
+    nodelist = parser.parse(("endcomponent",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 223, in do_component
+    raise TemplateSyntaxError(f"Unknown argument for {bits[0]} tag: {option}.")
+django.template.exceptions.TemplateSyntaxError: Unknown argument for component tag: stats.number.
+ERROR 2025-03-30 22:00:45,394 basehttp "GET /uz/admin/ HTTP/1.1" 500 269420
+INFO 2025-03-30 22:01:48,622 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:01:50,274 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:01:52,330 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:01:53,818 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:01:56,876 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:01:58,687 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:02:01,173 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:02:03,370 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:02:05,091 basehttp "GET /uz/admin/ HTTP/1.1" 200 33313
+INFO 2025-03-30 22:02:16,733 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:02:20,697 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:02:23,034 basehttp "GET /uz/admin/ HTTP/1.1" 200 33313
+INFO 2025-03-30 22:05:18,272 basehttp "GET /uz/admin/ HTTP/1.1" 200 33302
+INFO 2025-03-30 22:05:46,504 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 57608
+INFO 2025-03-30 22:05:46,717 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:03,853 basehttp "GET /uz/admin/Bot/telegramuser/?o=4.1 HTTP/1.1" 200 59492
+INFO 2025-03-30 22:06:03,978 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:05,643 basehttp "GET /uz/admin/Bot/telegramuser/?o=-4.1 HTTP/1.1" 200 59508
+INFO 2025-03-30 22:06:05,791 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:07,843 basehttp "GET /uz/admin/Bot/telegramuser/?o=4.1 HTTP/1.1" 200 59492
+INFO 2025-03-30 22:06:07,991 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:09,163 basehttp "GET /uz/admin/Bot/telegramuser/?o=-4.1 HTTP/1.1" 200 59508
+INFO 2025-03-30 22:06:09,283 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:13,487 basehttp "POST /uz/admin/Bot/telegramuser/?o=-4.1 HTTP/1.1" 302 0
+INFO 2025-03-30 22:06:13,895 basehttp "GET /uz/admin/Bot/telegramuser/?o=-4.1 HTTP/1.1" 200 59850
+INFO 2025-03-30 22:06:14,236 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:16,022 basehttp "GET /uz/admin/Bot/telegramuser/?o=4.1 HTTP/1.1" 200 59484
+INFO 2025-03-30 22:06:16,257 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:18,040 basehttp "GET /uz/admin/Bot/telegramuser/?o=-4.1 HTTP/1.1" 200 59500
+INFO 2025-03-30 22:06:18,212 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:21,419 basehttp "GET /uz/admin/Bot/telegramuser/?o=4.1 HTTP/1.1" 200 59484
+INFO 2025-03-30 22:06:21,544 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:24,249 basehttp "POST /uz/admin/Bot/telegramuser/?o=4.1 HTTP/1.1" 302 0
+INFO 2025-03-30 22:06:24,785 basehttp "GET /uz/admin/Bot/telegramuser/?o=4.1 HTTP/1.1" 200 59842
+INFO 2025-03-30 22:06:24,934 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:06:35,746 basehttp "GET /uz/admin/ HTTP/1.1" 200 33302
+INFO 2025-03-30 22:15:39,538 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:15:41,802 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:15:46,015 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:15:47,737 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:15:49,736 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:15:51,549 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:16:01,831 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:16:03,482 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:16:09,994 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:16:12,006 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:17:13,414 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:17:14,874 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:17:18,966 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:17:22,086 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:17:47,297 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:17:49,893 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:18:03,843 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:18:06,421 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:18:18,341 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:18:20,238 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:18:26,981 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:18:29,569 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:18:45,532 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/bot/main.py changed, reloading.
+INFO 2025-03-30 22:18:48,829 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:23:52,896 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/bot/main.py changed, reloading.
+INFO 2025-03-30 22:23:56,490 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:24:07,025 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:24:09,609 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:24:19,330 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:24:21,120 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:24:23,695 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:24:26,447 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:26:26,888 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:26:29,390 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:26:48,592 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:26:49,884 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:26:51,705 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/apps.py changed, reloading.
+INFO 2025-03-30 22:26:53,736 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:30:40,665 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/bot/main.py changed, reloading.
+INFO 2025-03-30 22:30:43,016 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:30:52,215 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/bot/main.py changed, reloading.
+INFO 2025-03-30 22:40:11,782 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:40:18,136 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:40:29,635 basehttp "GET /uz/admin/ HTTP/1.1" 200 33302
+INFO 2025-03-30 22:40:29,991 basehttp "GET /static/images/user_profile.png HTTP/1.1" 304 0
+INFO 2025-03-30 22:43:58,306 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:44:01,337 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:44:20,833 basehttp "GET /uz/admin/ HTTP/1.1" 200 33302
+INFO 2025-03-30 22:44:41,988 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:44:44,563 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:45:32,794 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:45:34,312 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:45:39,761 basehttp "GET /uz/admin/ HTTP/1.1" 200 33302
+INFO 2025-03-30 22:45:54,262 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 57608
+INFO 2025-03-30 22:45:54,440 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:46:00,133 basehttp "POST /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 29378
+INFO 2025-03-30 22:46:02,754 basehttp "POST /uz/admin/Bot/telegramuser/ HTTP/1.1" 302 0
+INFO 2025-03-30 22:46:02,902 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52441
+INFO 2025-03-30 22:46:03,188 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:46:04,358 basehttp "GET /uz/admin/ HTTP/1.1" 200 32080
+INFO 2025-03-30 22:46:15,616 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-30 22:46:18,133 autoreload Watching for file changes with StatReloader
+INFO 2025-03-30 22:46:22,609 basehttp "GET /uz/admin/ HTTP/1.1" 200 32079
+INFO 2025-03-30 22:46:30,640 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-30 22:46:30,822 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:46:36,006 basehttp "GET /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 200 35706
+INFO 2025-03-30 22:46:36,249 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:46:45,609 basehttp "POST /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 302 0
+INFO 2025-03-30 22:46:45,732 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 58045
+INFO 2025-03-30 22:46:46,250 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-30 22:46:48,333 basehttp "GET /uz/admin/ HTTP/1.1" 200 33302

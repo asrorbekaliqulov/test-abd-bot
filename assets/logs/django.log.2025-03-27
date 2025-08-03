@@ -1,0 +1,1368 @@
+INFO 2025-03-27 15:20:08,186 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:20:20,308 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:20:26,512 basehttp "GET / HTTP/1.1" 200 4856
+INFO 2025-03-27 15:20:26,768 basehttp "GET /static/css/styles.css HTTP/1.1" 200 5440
+INFO 2025-03-27 15:20:26,783 basehttp "GET /static/images/telegram-icon.svg HTTP/1.1" 200 2449
+INFO 2025-03-27 15:20:26,827 basehttp "GET /static/images/github-icon.svg HTTP/1.1" 200 5303
+INFO 2025-03-27 15:20:26,901 basehttp "GET /static/images/instagram-icon.svg HTTP/1.1" 200 819
+INFO 2025-03-27 15:20:26,909 basehttp "GET /static/images/web-icon.svg HTTP/1.1" 200 1329
+INFO 2025-03-27 15:20:26,911 basehttp "GET /static/js/main.js HTTP/1.1" 200 643
+INFO 2025-03-27 15:20:27,947 basehttp "GET /static/images/favicon.ico HTTP/1.1" 200 15406
+INFO 2025-03-27 15:20:43,734 basehttp "GET /uz/admin/ HTTP/1.1" 302 0
+INFO 2025-03-27 15:20:43,824 basehttp "GET /uz/admin/login/?next=/uz/admin/ HTTP/1.1" 200 11132
+INFO 2025-03-27 15:20:43,989 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 200 608
+INFO 2025-03-27 15:20:44,023 basehttp "GET /static/css/tailwind.css HTTP/1.1" 200 15588
+INFO 2025-03-27 15:20:44,050 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 200 4647
+INFO 2025-03-27 15:20:44,051 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 200 200633
+INFO 2025-03-27 15:20:44,052 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 200 157275
+INFO 2025-03-27 15:20:44,053 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 200 50918
+INFO 2025-03-27 15:20:44,054 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 200 535
+INFO 2025-03-27 15:20:44,098 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 200 7736
+INFO 2025-03-27 15:20:44,101 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 200 27176
+INFO 2025-03-27 15:20:44,177 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 200 15524
+INFO 2025-03-27 15:20:44,214 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 200 37891
+INFO 2025-03-27 15:20:44,222 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 200 837
+INFO 2025-03-27 15:20:44,233 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 200 703
+INFO 2025-03-27 15:20:44,241 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 200 44659
+INFO 2025-03-27 15:20:44,375 basehttp "GET /static/images/login.png HTTP/1.1" 200 171031
+INFO 2025-03-27 15:20:44,514 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-27 15:20:44,516 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-27 15:20:44,518 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-27 15:20:44,532 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 200 256424
+INFO 2025-03-27 15:20:51,763 basehttp "POST /uz/admin/login/?next=/uz/admin/ HTTP/1.1" 302 0
+INFO 2025-03-27 15:20:52,165 basehttp "GET /uz/admin/ HTTP/1.1" 200 102557
+INFO 2025-03-27 15:20:52,251 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 200 31764
+INFO 2025-03-27 15:21:03,528 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 51930
+INFO 2025-03-27 15:21:03,644 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 15:21:03,659 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-03-27 15:21:03,668 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-03-27 15:21:03,666 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9048
+INFO 2025-03-27 15:21:03,663 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-27 15:21:03,676 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-03-27 15:21:03,710 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-03-27 15:21:03,711 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-03-27 15:21:03,715 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-03-27 15:21:12,905 basehttp "GET /uz/admin/ HTTP/1.1" 200 102557
+INFO 2025-03-27 15:21:30,982 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+INFO 2025-03-27 15:21:31,068 basehttp "GET /ru/admin/ HTTP/1.1" 200 102677
+INFO 2025-03-27 15:21:31,201 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,227 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,255 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,248 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,273 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,257 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,232 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,256 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,313 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,357 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,360 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,362 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:31,366 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:36,770 basehttp "GET /ru/admin/ HTTP/1.1" 200 102677
+INFO 2025-03-27 15:21:36,849 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:37,419 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:40,235 basehttp "GET /ru/admin/ HTTP/1.1" 200 102677
+INFO 2025-03-27 15:21:49,390 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+INFO 2025-03-27 15:21:49,504 basehttp "GET /uz/admin/ HTTP/1.1" 200 102557
+INFO 2025-03-27 15:21:49,652 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:52,302 basehttp "GET / HTTP/1.1" 200 4856
+INFO 2025-03-27 15:21:52,570 basehttp "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:52,584 basehttp "GET /static/images/telegram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:52,593 basehttp "GET /static/images/github-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:52,647 basehttp "GET /static/images/instagram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:52,679 basehttp "GET /static/images/web-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:52,704 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:21:54,804 basehttp "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4437
+INFO 2025-03-27 15:21:54,911 basehttp "GET /static/drf_spectacular_sidecar/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 152042
+INFO 2025-03-27 15:21:54,953 basehttp "GET /static/drf_spectacular_sidecar/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 230777
+INFO 2025-03-27 15:21:54,981 basehttp "GET /static/drf_spectacular_sidecar/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1402899
+INFO 2025-03-27 15:21:55,621 basehttp "GET /schema/ HTTP/1.1" 200 3104
+INFO 2025-03-27 15:21:55,797 basehttp "GET /static/drf_spectacular_sidecar/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+ERROR 2025-03-27 15:22:07,268 log Internal Server Error: /schema/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/views.py", line 406, in initial
+    neg = self.perform_content_negotiation(request)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/views.py", line 310, in perform_content_negotiation
+    return conneg.select_renderer(request, renderers, self.format_kwarg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/negotiation.py", line 78, in select_renderer
+    raise exceptions.NotAcceptable(available_renderers=renderers)
+rest_framework.exceptions.NotAcceptable: Could not satisfy the request Accept header.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.shared.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/settings.py", line 179, in import_from_string
+    return import_string(val)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.shared.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/views.py", line 463, in handle_exception
+    exception_handler = self.get_exception_handler()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/views.py", line 298, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/settings.py", line 227, in __getattr__
+    val = perform_import(val, attr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/settings.py", line 168, in perform_import
+    return import_from_string(val, setting_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/rest_framework/settings.py", line 182, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.shared.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.shared.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2025-03-27 15:22:07,301 basehttp "GET /schema/?format=json&lang=uz HTTP/1.1" 500 29700
+INFO 2025-03-27 15:22:48,806 basehttp "GET /schema/ HTTP/1.1" 200 1414
+INFO 2025-03-27 15:22:55,421 basehttp "GET /api/schema/redoc/ HTTP/1.1" 200 723
+INFO 2025-03-27 15:22:55,566 basehttp "GET /static/drf_spectacular_sidecar/redoc/bundles/redoc.standalone.js HTTP/1.1" 200 870155
+INFO 2025-03-27 15:22:56,045 basehttp "GET /schema/ HTTP/1.1" 200 1414
+INFO 2025-03-27 15:23:23,711 basehttp "GET /rosetta/ HTTP/1.1" 302 0
+INFO 2025-03-27 15:23:23,828 basehttp "GET /rosetta/files/project/ HTTP/1.1" 200 6152
+INFO 2025-03-27 15:23:23,989 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-03-27 15:23:24,040 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2025-03-27 15:23:24,040 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-03-27 15:23:24,044 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 87533
+INFO 2025-03-27 15:23:24,083 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-03-27 15:23:27,986 basehttp "GET /rosetta/files/third-party/ HTTP/1.1" 200 7215
+INFO 2025-03-27 15:23:29,325 basehttp "GET /rosetta/files/django/ HTTP/1.1" 200 31730
+INFO 2025-03-27 15:23:54,466 basehttp "GET /rosetta/files/django/uz/1/ HTTP/1.1" 200 20933
+INFO 2025-03-27 15:23:54,569 basehttp "GET /static/admin/img/icon_searchbox_rosetta.png HTTP/1.1" 200 667
+INFO 2025-03-27 15:24:18,960 basehttp "POST /rosetta/files/django/uz/1/ HTTP/1.1" 302 0
+INFO 2025-03-27 15:24:19,038 basehttp "GET /rosetta/files/django/uz/1/?msg_filter=all&ref_lang=msgid&page=2 HTTP/1.1" 200 20992
+INFO 2025-03-27 15:24:19,186 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:24:19,206 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:24:19,213 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:24:19,213 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:24:19,274 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:24:23,793 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=all HTTP/1.1" 200 20942
+INFO 2025-03-27 15:24:26,206 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=fuzzy HTTP/1.1" 200 8031
+INFO 2025-03-27 15:24:27,336 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=translated HTTP/1.1" 200 20548
+INFO 2025-03-27 15:24:28,732 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=untranslated HTTP/1.1" 200 22225
+INFO 2025-03-27 15:24:45,744 basehttp "GET /rosetta/files/django/ HTTP/1.1" 200 31730
+INFO 2025-03-27 15:24:48,030 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=untranslated HTTP/1.1" 200 22225
+INFO 2025-03-27 15:24:48,765 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=translated HTTP/1.1" 200 20548
+INFO 2025-03-27 15:24:49,611 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=fuzzy HTTP/1.1" 200 8031
+INFO 2025-03-27 15:24:50,369 basehttp "GET /rosetta/files/django/uz/1/?ref_lang=msgid&msg_filter=all HTTP/1.1" 200 20942
+INFO 2025-03-27 15:24:51,195 basehttp "GET /rosetta/files/django/uz/1/?msg_filter=all&ref_lang=msgid&page=2 HTTP/1.1" 200 20994
+INFO 2025-03-27 15:24:52,175 basehttp "GET /rosetta/files/django/uz/1/ HTTP/1.1" 200 20953
+INFO 2025-03-27 15:24:53,558 basehttp "GET /rosetta/files/django/ HTTP/1.1" 200 31730
+INFO 2025-03-27 15:24:54,621 basehttp "GET /rosetta/files/third-party/ HTTP/1.1" 200 7215
+INFO 2025-03-27 15:24:57,563 basehttp "GET /rosetta/files/project/ HTTP/1.1" 200 6152
+INFO 2025-03-27 15:25:53,827 basehttp "GET / HTTP/1.1" 200 4738
+INFO 2025-03-27 15:25:53,998 basehttp "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:25:54,000 basehttp "GET /static/images/github-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:25:54,003 basehttp "GET /static/images/instagram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:25:54,003 basehttp "GET /static/images/telegram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:25:54,014 basehttp "GET /static/images/web-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:25:54,021 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:25:54,242 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 15:27:44,781 basehttp "GET / HTTP/1.1" 200 4581
+INFO 2025-03-27 15:27:44,966 basehttp "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:27:44,997 basehttp "GET /static/images/telegram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:27:45,001 basehttp "GET /static/images/github-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:27:45,009 basehttp "GET /static/images/instagram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 15:27:45,009 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:27:45,228 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,306 basehttp "GET /uz/admin/ HTTP/1.1" 200 102557
+INFO 2025-03-27 15:40:13,467 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,496 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,526 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,542 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,552 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,559 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,588 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,584 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,643 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,646 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,753 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,740 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,804 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,808 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:13,810 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:14,190 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:14,192 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:14,204 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:40:14,247 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,446 basehttp "GET /uz/admin/auth/group/ HTTP/1.1" 200 31254
+INFO 2025-03-27 15:41:36,649 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,653 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,655 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,657 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,661 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,681 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 15:41:36,690 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,734 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:41:36,737 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:32,177 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:44:36,112 basehttp "GET /uz/admin/auth/group/ HTTP/1.1" 200 31254
+INFO 2025-03-27 15:44:36,284 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,383 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,397 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,419 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,437 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,442 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,436 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,436 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,451 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 15:44:36,506 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,531 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,537 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,575 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,538 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,533 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,627 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,633 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,753 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,765 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,910 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,923 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,948 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,969 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:36,967 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:37,345 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:37,392 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:37,392 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:37,397 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:37,853 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 15:44:42,325 basehttp "GET /uz/admin/ HTTP/1.1" 200 102144
+INFO 2025-03-27 15:45:31,867 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/admin/dashboard.py changed, reloading.
+INFO 2025-03-27 15:45:33,999 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:45:35,101 basehttp "GET /uz/admin/ HTTP/1.1" 200 102578
+INFO 2025-03-27 15:45:50,710 basehttp "GET /uz/admin/ HTTP/1.1" 200 102578
+INFO 2025-03-27 15:46:21,139 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/admin/dashboard.py changed, reloading.
+INFO 2025-03-27 15:46:23,066 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-27 15:46:27,073 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 176, in render
+    "children": self.nodelist.render(context),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 176, in render
+    "children": self.nodelist.render(context),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/templatetags/unfold.py", line 181, in render
+    values = ComponentRegistry.create_instance(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/components.py", line 32, in create_instance
+    raise ValueError(f"Class '{class_name}' is not registered.")
+ValueError: Class 'TrackerComponent' is not registered.
+ERROR 2025-03-27 15:46:27,083 basehttp "GET /uz/admin/ HTTP/1.1" 500 414855
+INFO 2025-03-27 15:47:09,530 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/admin/dashboard.py changed, reloading.
+INFO 2025-03-27 15:47:11,512 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:47:48,849 basehttp "GET /uz/admin/ HTTP/1.1" 200 102933
+INFO 2025-03-27 15:47:48,976 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:48,977 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:48,978 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:48,980 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:48,990 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:48,997 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,083 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,095 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,121 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,125 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,208 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,232 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,235 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,236 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:49,237 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:50,032 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:50,119 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:50,131 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:50,141 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:50,758 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 15:47:53,065 basehttp "GET /static/unfold/fonts/inter/Inter-Bold.woff2 HTTP/1.1" 200 46552
+INFO 2025-03-27 15:48:21,256 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-27 15:48:22,997 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:48:25,867 basehttp "GET /uz/admin/ HTTP/1.1" 200 95066
+INFO 2025-03-27 15:48:50,156 autoreload /home/asrorbek/Documents/DjangoDefault/apps/shared/views/dashboard.py changed, reloading.
+INFO 2025-03-27 15:48:51,751 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 15:50:00,394 basehttp "GET /uz/admin/ HTTP/1.1" 200 98679
+INFO 2025-03-27 15:50:36,991 basehttp "GET /uz/admin/ HTTP/1.1" 200 102661
+INFO 2025-03-27 15:50:49,506 basehttp "GET /uz/admin/ HTTP/1.1" 200 98679
+INFO 2025-03-27 15:53:12,486 basehttp "GET /uz/admin/ HTTP/1.1" 200 102661
+INFO 2025-03-27 15:53:12,612 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,656 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,659 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,670 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,673 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,673 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,677 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,683 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,764 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,776 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,847 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,880 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,887 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,885 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:12,885 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:13,554 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:13,558 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:13,587 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:13,564 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 15:53:14,112 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 16:14:59,463 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-27 16:15:09,956 log Not Found: /i18n
+WARNING 2025-03-27 16:15:09,961 basehttp "GET /i18n HTTP/1.1" 404 3738
+WARNING 2025-03-27 16:15:31,163 log Not Found: /ckeditor5
+WARNING 2025-03-27 16:15:31,171 basehttp "GET /ckeditor5 HTTP/1.1" 404 3753
+WARNING 2025-03-27 16:15:36,507 log Not Found: /uz/ckeditor5
+WARNING 2025-03-27 16:15:36,515 basehttp "GET /uz/ckeditor5 HTTP/1.1" 404 3858
+WARNING 2025-03-27 16:15:40,524 log Not Found: /uz/
+WARNING 2025-03-27 16:15:40,526 basehttp "GET /uz/ HTTP/1.1" 404 3831
+INFO 2025-03-27 16:15:44,114 basehttp "GET / HTTP/1.1" 200 4580
+INFO 2025-03-27 16:15:44,230 basehttp "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:15:44,293 basehttp "GET /static/images/telegram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 16:15:44,300 basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:15:44,301 basehttp "GET /static/images/instagram-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 16:15:44,302 basehttp "GET /static/images/github-icon.svg HTTP/1.1" 304 0
+INFO 2025-03-27 16:15:44,711 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:06,417 basehttp "GET /rosetta/ HTTP/1.1" 302 0
+INFO 2025-03-27 16:16:06,535 basehttp "GET /rosetta/files/project/ HTTP/1.1" 200 6152
+INFO 2025-03-27 16:16:06,684 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:06,727 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:06,729 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:06,738 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:06,804 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:13,712 basehttp "GET /rosetta/files/project/ HTTP/1.1" 200 6152
+INFO 2025-03-27 16:16:17,830 basehttp "GET /rosetta/files/project/ HTTP/1.1" 200 6152
+INFO 2025-03-27 16:16:21,806 basehttp "GET /uz/admin/ HTTP/1.1" 200 102444
+INFO 2025-03-27 16:16:21,996 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,123 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,135 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,137 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,138 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,143 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,144 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,175 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,208 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,210 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,370 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,379 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,525 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,528 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,526 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,951 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,952 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,972 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:16:22,981 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:20:03,031 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:20:11,321 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/models/__init__.py changed, reloading.
+INFO 2025-03-27 16:20:12,837 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:20:16,641 basehttp "GET /uz/admin/ HTTP/1.1" 200 102518
+INFO 2025-03-27 16:21:48,893 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:21:52,591 basehttp "GET /uz/admin/ HTTP/1.1" 200 103525
+INFO 2025-03-27 16:22:11,022 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 36217
+INFO 2025-03-27 16:22:11,216 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,218 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:22:11,254 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,271 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,285 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,281 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,282 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,272 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:11,293 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:22:51,097 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:22:52,720 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:23:13,041 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:23:14,838 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:23:21,675 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:23:23,281 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:23:34,081 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:23:35,651 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:23:42,357 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:23:44,440 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:23:46,890 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:23:49,034 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:01,465 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:03,162 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:06,402 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:08,045 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:14,535 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:16,222 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:27,512 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:29,547 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:36,278 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:37,895 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:43,981 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:46,207 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:50,273 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:51,824 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:24:53,904 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:24:55,640 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:25:04,923 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:25:06,794 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:25:10,090 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:25:12,800 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:25:38,957 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:25:40,768 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:25:46,908 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:25:48,244 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:25:51,515 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 38140
+INFO 2025-03-27 16:25:51,698 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,699 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,710 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,737 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,741 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,769 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:25:51,886 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,897 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,897 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,975 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:51,976 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:52,092 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:52,107 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:52,166 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:52,188 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:52,215 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:25:52,569 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+ERROR 2025-03-27 16:25:54,053 log Internal Server Error: /uz/admin/Bot/telegramuser/add/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 451, in changeform_view
+    return super().changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1887, in _changeform_view
+    form = ModelForm(initial=initial)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/forms.py", line 111, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/auth/forms.py", line 301, in __init__
+    if self.instance and not self.instance.has_usable_password():
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TelegramUser' object has no attribute 'has_usable_password'
+ERROR 2025-03-27 16:25:54,069 basehttp "GET /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 500 154009
+INFO 2025-03-27 16:26:07,357 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:26:10,576 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:26:27,275 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:26:28,957 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:26:33,273 basehttp "GET /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 200 34132
+INFO 2025-03-27 16:26:33,481 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:26:33,687 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-03-27 16:26:33,860 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-03-27 16:26:34,174 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:26:34,175 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:26:34,222 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:26:34,224 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:27:00,710 basehttp "POST /uz/admin/Bot/telegramuser/add/ HTTP/1.1" 302 0
+INFO 2025-03-27 16:27:01,195 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50946
+INFO 2025-03-27 16:27:01,391 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:27:08,950 basehttp "GET /uz/admin/Bot/telegramuser/?o= HTTP/1.1" 200 49544
+INFO 2025-03-27 16:27:09,108 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:27:36,257 basehttp "GET /uz/admin/Bot/telegramuser/?_facets=True&o= HTTP/1.1" 200 49893
+INFO 2025-03-27 16:27:36,356 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:29:55,812 basehttp "GET /uz/admin/ HTTP/1.1" 200 103319
+INFO 2025-03-27 16:32:56,063 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:32:59,737 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:33:02,761 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:33:05,449 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:33:07,813 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:33:10,251 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:33:14,334 basehttp "GET /uz/admin/ HTTP/1.1" 200 103307
+INFO 2025-03-27 16:33:14,484 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,520 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,532 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,560 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,562 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,542 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,576 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,657 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,660 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,660 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,788 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,858 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,871 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,872 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:14,878 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:15,775 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:21,927 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50512
+INFO 2025-03-27 16:33:22,084 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:33:22,113 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,136 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,137 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,138 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,137 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,185 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,197 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:22,206 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:33:28,449 basehttp "GET /uz/admin/Bot/telegramuser/1/change/ HTTP/1.1" 200 35488
+INFO 2025-03-27 16:33:28,606 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:33:34,894 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50512
+INFO 2025-03-27 16:33:35,086 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:35:35,625 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:35:37,707 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:35:46,069 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:35:47,597 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:35:54,416 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:35:55,965 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:36:08,763 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:36:10,309 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:36:26,461 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:36:31,193 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 35029
+INFO 2025-03-27 16:36:31,384 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:36:31,916 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:36:31,921 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:36:31,921 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:36:31,939 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:36:34,972 basehttp "GET /uz/admin/ HTTP/1.1" 200 103351
+INFO 2025-03-27 16:36:41,153 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 35029
+INFO 2025-03-27 16:36:41,295 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:37:20,951 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:37:23,064 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:37:29,985 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50512
+INFO 2025-03-27 16:37:30,179 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:37:42,502 basehttp "GET /uz/admin/Bot/telegramuser/?q=asror HTTP/1.1" 200 50777
+INFO 2025-03-27 16:37:42,719 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:37:51,977 basehttp "GET /uz/admin/Bot/telegramuser/?q=sarvar HTTP/1.1" 200 38495
+INFO 2025-03-27 16:37:52,228 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:37:58,228 basehttp "GET /uz/admin/ HTTP/1.1" 200 103309
+INFO 2025-03-27 16:38:33,327 basehttp "GET /uz/admin/toggle-sidebar/ HTTP/1.1" 200 0
+INFO 2025-03-27 16:38:34,686 basehttp "GET /uz/admin/toggle-sidebar/ HTTP/1.1" 200 0
+INFO 2025-03-27 16:42:27,384 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:42:29,218 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:42:31,783 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:42:33,280 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:42:37,848 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:42:39,414 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:42:43,218 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:42:45,237 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:43:01,062 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:43:17,980 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:43:23,154 basehttp "GET /uz/admin/ HTTP/1.1" 200 103801
+INFO 2025-03-27 16:43:23,307 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,362 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,367 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,398 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,408 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,425 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,432 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,433 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,474 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,517 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,590 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,614 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,655 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,658 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:23,661 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:24,766 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:26,005 basehttp "GET /uz/admin/toggle-sidebar/ HTTP/1.1" 200 0
+INFO 2025-03-27 16:43:29,948 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 34391
+INFO 2025-03-27 16:43:30,152 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:43:30,196 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,215 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,209 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,210 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,224 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,225 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,284 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:30,307 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:43:58,074 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:44:20,505 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:44:24,501 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50512
+INFO 2025-03-27 16:44:24,695 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:44:35,938 basehttp "POST /uz/admin/Bot/telegramuser/ HTTP/1.1" 302 0
+INFO 2025-03-27 16:44:36,184 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50512
+INFO 2025-03-27 16:44:36,521 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:45:01,619 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 16:45:03,856 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:45:08,342 basehttp "GET /uz/admin/Bot/telegramuser/?o=5.3 HTTP/1.1" 200 52368
+INFO 2025-03-27 16:45:08,558 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:45:11,499 basehttp "GET /uz/admin/Bot/telegramuser/?o=-5.3 HTTP/1.1" 200 52383
+INFO 2025-03-27 16:45:11,655 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:45:12,195 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:45:12,205 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:45:12,213 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:45:12,210 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:45:13,697 basehttp "GET /uz/admin/Bot/telegramuser/?o=3 HTTP/1.1" 200 50680
+INFO 2025-03-27 16:45:13,847 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:45:17,173 basehttp "GET /uz/admin/ HTTP/1.1" 200 103355
+INFO 2025-03-27 16:46:31,288 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:48:06,131 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:48:09,513 basehttp "GET /uz/admin/ HTTP/1.1" 200 103366
+INFO 2025-03-27 16:49:28,338 basehttp "GET /uz/admin/auth/group/ HTTP/1.1" 200 32052
+INFO 2025-03-27 16:49:28,581 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:49:29,569 basehttp "GET /uz/admin/auth/group/ HTTP/1.1" 200 32052
+INFO 2025-03-27 16:49:29,732 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:49:32,104 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 52728
+INFO 2025-03-27 16:49:32,209 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:51:42,702 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:51:45,013 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:51:54,524 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:51:56,403 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:52:04,639 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:52:06,492 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:52:08,683 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:52:10,262 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:52:12,418 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:52:13,914 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:52:17,344 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 53890
+INFO 2025-03-27 16:52:17,547 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,617 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,625 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,659 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,684 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,716 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:52:17,689 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,714 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,690 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,822 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,823 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,967 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,982 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:17,985 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:52:46,685 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:52:48,865 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:52:56,016 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:52:57,587 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:53:07,023 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:53:09,268 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:53:14,479 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:53:16,192 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:53:24,495 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:53:26,040 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:53:30,635 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54304
+INFO 2025-03-27 16:53:30,887 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:30,902 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:53:31,004 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,009 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,037 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,038 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,042 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,043 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,035 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,045 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:31,164 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:32,195 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 16:53:50,831 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:53:53,036 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:53:55,833 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54298
+INFO 2025-03-27 16:53:55,979 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:54:32,569 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:54:35,505 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:54:39,805 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54298
+INFO 2025-03-27 16:54:40,067 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:54:40,721 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:54:40,722 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:54:40,726 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:54:40,739 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 16:54:55,549 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:54:57,140 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:55:00,250 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54301
+INFO 2025-03-27 16:55:00,441 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:55:07,145 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:55:09,583 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:55:14,674 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:55:16,964 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:55:19,006 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:55:20,796 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-27 16:55:25,770 log Internal Server Error: /uz/admin/auth/user/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 290, in get_sidebar_list
+    item["has_permission"] = self._call_permission_callback(
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 361, in _call_permission_callback
+    if lazy(callback)(request) == True:  # noqa: E712
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 124, in __eq__
+    return self.__cast() == other
+           ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py", line 58, in <lambda>
+    request.TelegramUser, "view_TelegramUser"
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'TelegramUser'
+ERROR 2025-03-27 16:55:25,784 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 500 169487
+INFO 2025-03-27 16:55:51,728 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:55:53,452 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:56:47,459 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:56:48,865 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-27 16:56:52,246 log Internal Server Error: /uz/admin/auth/user/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'auth_TelegramUser_changelist' not found. 'auth_TelegramUser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 16:56:52,253 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 500 168849
+INFO 2025-03-27 16:57:17,595 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:57:19,850 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:57:24,104 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 16:57:25,593 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 16:57:30,894 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54300
+INFO 2025-03-27 16:57:31,061 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:57:34,153 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54300
+INFO 2025-03-27 16:57:34,298 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:57:36,431 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 200 54300
+INFO 2025-03-27 16:57:36,587 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:57:49,245 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 51995
+INFO 2025-03-27 16:57:49,344 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 16:59:51,668 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:00:20,560 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-27 17:00:24,676 log Internal Server Error: /uz/admin/Bot/telegramuser/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bot_telegramuser_changelist' not found. 'bot_telegramuser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 17:00:24,706 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 500 169060
+INFO 2025-03-27 17:01:00,702 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:01:02,338 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-27 17:01:05,998 log Internal Server Error: /uz/admin/Bot/telegramuser/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bot_telegramuser_changelist' not found. 'bot_telegramuser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 17:01:06,007 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 500 169060
+ERROR 2025-03-27 17:01:19,483 log Internal Server Error: /uz/admin/auth/user/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bot_telegramuser_changelist' not found. 'bot_telegramuser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 17:01:19,487 basehttp "GET /uz/admin/auth/user/ HTTP/1.1" 500 168550
+ERROR 2025-03-27 17:01:22,605 log Internal Server Error: /uz/admin/auth/group/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bot_telegramuser_changelist' not found. 'bot_telegramuser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 17:01:22,612 basehttp "GET /uz/admin/auth/group/ HTTP/1.1" 500 168317
+ERROR 2025-03-27 17:01:23,767 log Internal Server Error: /uz/admin/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 147, in index
+    **self.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bot_telegramuser_changelist' not found. 'bot_telegramuser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 17:01:23,775 basehttp "GET /uz/admin/ HTTP/1.1" 500 146444
+INFO 2025-03-27 17:02:23,267 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:02:25,107 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:02:28,280 basehttp "GET /uz/admin/ HTTP/1.1" 200 103525
+INFO 2025-03-27 17:02:28,432 basehttp "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,507 basehttp "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,635 basehttp "GET /static/unfold/css/simplebar.css HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,639 basehttp "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,672 basehttp "GET /static/unfold/js/htmx.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,696 basehttp "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,718 basehttp "GET /static/unfold/js/chart.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,833 basehttp "GET /static/unfold/js/simplebar.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:28,924 basehttp "GET /static/unfold/js/alpine.anchor.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:29,101 basehttp "GET /static/unfold/js/alpine.sort.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:29,101 basehttp "GET /static/unfold/js/alpine.persist.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:29,120 basehttp "GET /static/unfold/js/alpine.resize.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:02:29,134 basehttp "GET /static/unfold/js/alpine.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:03:34,797 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:03:37,398 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:03:42,714 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:03:44,551 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:03:48,794 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:03:50,539 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:03:59,933 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:04:01,882 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:04:04,811 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:04:07,994 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:04:16,768 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:04:18,770 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:04:23,014 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:04:41,978 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:04:44,904 basehttp "GET /uz/admin/ HTTP/1.1" 200 103693
+INFO 2025-03-27 17:04:45,016 basehttp "GET /static/css/tailwind.css HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:45,107 basehttp "GET /static/images/django-logo.webp HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:45,763 basehttp "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:45,767 basehttp "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:45,778 basehttp "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:45,796 basehttp "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:46,369 basehttp "GET /static/images/favicon.ico HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,615 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 50512
+INFO 2025-03-27 17:04:51,780 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,783 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 17:04:51,801 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,784 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,784 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,794 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,843 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,846 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:04:51,877 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-27 17:05:01,858 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:05:03,705 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:05:28,072 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:05:29,768 autoreload Watching for file changes with StatReloader
+ERROR 2025-03-27 17:05:33,313 log Internal Server Error: /uz/admin/Bot/telegramuser/
+Traceback (most recent call last):
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/admin.py", line 484, in changelist_view
+    return super().changelist_view(request, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/contrib/admin/options.py", line 2138, in changelist_view
+    **self.admin_site.each_context(request),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 121, in each_context
+    "sidebar_navigation": self.get_sidebar_list(request)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 263, in get_sidebar_list
+    item["active"] = self._get_is_active(
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/unfold/sites.py", line 418, in _get_is_active
+    link = str(link)
+           ^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 119, in __str__
+    return str(self.__cast())
+               ^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/utils/functional.py", line 110, in __cast
+    return func(*self._args, **self._kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asrorbek/Documents/DjangoDefault/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bot_telegramuser_changelist' not found. 'bot_telegramuser_changelist' is not a valid view function or pattern name.
+ERROR 2025-03-27 17:05:33,322 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 500 168930
+INFO 2025-03-27 17:05:59,683 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:06:01,590 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:06:06,821 autoreload /home/asrorbek/Documents/DjangoDefault/core/config/unfold_navigation.py changed, reloading.
+INFO 2025-03-27 17:06:08,880 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:06:10,019 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-27 17:06:10,234 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 17:06:16,836 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-27 17:06:17,005 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 17:07:30,521 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 17:07:32,177 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:07:36,888 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 53754
+INFO 2025-03-27 17:07:37,115 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 17:07:40,729 basehttp "GET /uz/admin/Bot/telegramuser/?o=3.-1 HTTP/1.1" 200 53957
+INFO 2025-03-27 17:07:40,907 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 17:07:59,047 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 17:08:01,124 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:08:17,904 autoreload /home/asrorbek/Documents/DjangoDefault/apps/Bot/admin/base.py changed, reloading.
+INFO 2025-03-27 17:08:19,959 autoreload Watching for file changes with StatReloader
+INFO 2025-03-27 17:08:21,772 basehttp "GET /uz/admin/Bot/telegramuser/ HTTP/1.1" 200 52086
+INFO 2025-03-27 17:08:22,008 basehttp "GET /uz/admin/jsi18n/ HTTP/1.1" 200 6253
+INFO 2025-03-27 17:08:47,826 basehttp "GET /uz/admin/ HTTP/1.1" 200 104592
