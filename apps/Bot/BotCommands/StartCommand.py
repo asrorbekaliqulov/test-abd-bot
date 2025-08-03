@@ -116,7 +116,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     quote_message = f"<b>{quote['quote']}</b>\n\n<i>{quote['author']}</i>"
     await context.bot.send_message(
         chat_id=update.effective_user.id,
-        text=f"<b>Hello 👋\nComing soon</b>\n\n<blockquote>{quote_message}</blockquote>",
+        text=f"<b>Assalomu alaykum 👋</b>\n\n<blockquote>Mativatsiya: {quote_message}</blockquote>\n\nTestAbd.uz – bu nafaqat bilim, balki daromad manbai! 🌟",
         parse_mode="html",
         reply_markup=reply_markup,
     )
