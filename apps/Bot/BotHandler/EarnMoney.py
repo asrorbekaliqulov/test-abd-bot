@@ -24,7 +24,7 @@ Loyiha daromad keltirganda, umumiy daromadning <b>50%</b>i foydalanuvchilar o‘
 • Umumiy coinlar 100% deb olinadi.
 • Sizning coinlaringiz umumiy coinlarning qancha foizini tashkil qilsa, daromadning o‘sha foizini olasiz.
 
-<i>Misol:</i> Agar loyiha 1,000,000 so‘m daromad keltirsa va sizning coinlaringiz umumiy coinlarning 5% ini tashkil qilsa, siz <b>50,000 so‘m</b> olasiz!
+<i>Misol:</i> Agar loyiha 1,000,000$ daromad keltirsa va sizning coinlaringiz umumiy coinlarning 5% ini tashkil qilsa, siz <b>25,000$</b> olasiz! <i>(va bu bir martalik emas har oylik daromad)</i>
 
 <b>🚀 Bugun boshlang!</b> Testlar ishlang, savollar yarating, do‘stlaringizni taklif qiling va obunachilar to‘plang – har bir harakatingiz sizni katta daromadga yaqinlashtiradi! 💪
 
