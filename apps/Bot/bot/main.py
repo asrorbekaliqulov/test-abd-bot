@@ -43,7 +43,8 @@ from ..BotHandler import (
     all_appeals,
     profile_handler,
     Ads_menu,
-    Ads_conv_handler
+    Ads_conv_handler,
+    EarnMoneyMenu
 )
 from ..Auth import login_conversation
 from datetime import datetime, timedelta
@@ -117,8 +118,8 @@ def main():
     app.add_handler(CallbackQueryHandler(Ads_menu, pattern=r"^setAds$"))
     app.add_handler(CallbackQueryHandler(TestAbdMenu, pattern=r"^testabd$"))
     app.add_handler(CallbackQueryHandler(button_callback, pattern=r"^(section:|main_menu|back)"))
-    app.add_handler(CommandHandler('edit_config', edit_config))
     app.add_handler(CallbackQueryHandler(button_callback_config, pattern="^edit_config:"))
+    app.add_handler(CallbackQueryHandler(EarnMoneyMenu, pattern=r"^earn_money$"))
     app.add_handler(CallbackQueryHandler(InlineButton))
 
     # Message handlers

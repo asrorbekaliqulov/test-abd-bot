@@ -18,3 +18,4 @@ from .Support import (
 )
 from .MyStats import profile_handler
 from .Ads import Ads_menu, Ads_conv_handler
+from .EarnMoney import EarnMoneyMenu
