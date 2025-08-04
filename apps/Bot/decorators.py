@@ -1,4 +1,5 @@
 from functools import wraps
+import re
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes, ConversationHandler
 from asgiref.sync import sync_to_async
@@ -44,26 +45,20 @@ def get_all_channels():
     return list(Channel.objects.all())  # QuerySet ni ro'yxatga aylantirish
 
 
-# Foydalanuvchi kanalga a'zo ekanligini tekshirish uchun dekorator
+# Foydalanuvchi kanalga a'zo ekanligini tekshiruvchi dekorator
 def mandatory_channel_required(func):
     @wraps(func)
-    async def wrapper(
-        update: Update, context: ContextTypes.DEFAULT_TYPE, *args, **kwargs
-    ):
+    async def wrapper(update: Update, context: ContextTypes.DEFAULT_TYPE, *args, **kwargs):
         user_id = update.effective_user.id
 
         try:
             # Foydalanuvchini bazadan topish
             user = await sync_to_async(TelegramUser.objects.get)(user_id=user_id)
-            user_id = user.user_id
 
-            # InlineKeyboard uchun tugmalar yaratish
             keyboards = []
 
-            # Barcha kanallarni olish
             channels = await get_all_channels()
 
-            # Har bir kanal uchun tugma yaratish
             for channel in channels:
                 keyboards.append(
                     [InlineKeyboardButton(text=f"{channel.name}", url=f"{channel.url}")]
@@ -91,16 +86,21 @@ def mandatory_channel_required(func):
                     continue
 
         except TelegramUser.DoesNotExist:
-            # Agar foydalanuvchi topilmasa, xabar yuborish
+            # Agar foydalanuvchi topilmasa, uni bazaga saqlash
             data = update.effective_user
             is_save = await save_user_to_db(data)
+            if not is_save:
+                await context.bot.send_message(
+                    chat_id=user_id,
+                    text="Foydalanuvchini saqlashda xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
+                )
+                return
             return await func(update, context, *args, **kwargs)
 
         # Agar foydalanuvchi barcha kanallarga a'zo bo'lsa, asosiy funksiyani davom ettirish
         return await func(update, context, *args, **kwargs)
 
     return wrapper
-
 
 def typing_action(func):
     @wraps(func)

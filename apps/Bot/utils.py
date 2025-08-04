@@ -6,16 +6,19 @@ import requests
 
 async def save_user_to_db(data):
     user_id = data.id
-    first_name = data.first_name  # Changed from `data.id` to `data.first_name`
-    username = data.username  # Changed from `data.id` to `data.username`
+    first_name = data.first_name
+    username = data.username
 
     try:
         # Wrap the ORM operation with sync_to_async
         @sync_to_async
         def update_or_create_user():
             return TelegramUser.objects.update_or_create(
-                user_id=user_id,
-                defaults={"first_name": first_name, "username": username},
+                user_id=user_id,  # Modeldagi `telegram_id` maydoniga moslashtirildi
+                defaults={
+                    "first_name": first_name,
+                    "username": username,
+                },
             )
 
         user, created = await update_or_create_user()

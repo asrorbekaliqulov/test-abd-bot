@@ -89,6 +89,7 @@ async def LoginPassword(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "is_active": True,
             }
         )
+        print(update_user)
         context.user_data["access_token"] = access_token
         context.user_data["refresh_token"] = refresh_token
         
@@ -116,3 +117,6 @@ login_conversation = ConversationHandler(
     },
     fallbacks=[],
 )
+
+
+

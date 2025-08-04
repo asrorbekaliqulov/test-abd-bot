@@ -8,6 +8,7 @@ from TestAbdBot.settings import BASE_API_URL
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from asgiref.sync import sync_to_async
 import requests
+import re
 
 
 
@@ -43,7 +44,7 @@ async def get_user_keyboard(user_id):
     # Profilim tugmasi bir o'zi birinchi qatorda
     users_keyboards = [
         [
-            InlineKeyboardButton(text="📊 Profilim", callback_data="MyProfile"),
+            InlineKeyboardButton(text="📊 Profilim", callback_data="profile_main"),
         ],
     ]
 
@@ -97,7 +98,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     Botni ishga tushirish uchun komanda.
     """
     remove = ReplyKeyboardRemove()
-
     data = update.effective_user
     if update.callback_query:
         await update.callback_query.answer("Asosiy menyu")
