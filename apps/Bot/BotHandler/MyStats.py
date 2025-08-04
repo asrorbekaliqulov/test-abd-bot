@@ -476,7 +476,8 @@ async def profile_referrals(update: Update, context: ContextTypes.DEFAULT_TYPE):
         else:
             text = f"""🤝 <b>Referrallar</b>
 
-🔗 <b>Referal kodi:</b> {referral_code}
+🔗 <b>Referal kodi:</b> <code>{referral_code}</code>
+
 👥 <b>Oxirgi 5 ta taklif qilingan foydalanuvchilar:</b>
 {referrals_text}
 
