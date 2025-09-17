@@ -69,19 +69,19 @@ async def EarnMoneyMenu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     balance = user_data["balance"]
     context.user_data["balance"] = balance
     context.user_data["username"] = user_data["username"]
-
-    await update.callback_query.edit_message_text(
-        text=f"<b>1 Coin = 1 So'm</b>\n\n"
-             f"Hisobingiz: <b>{balance}</b> coin\n"
-             f"Yechmoqchi bo‘lgan summani kiriting.\n\n"
-             f"<i>Minimal yechish miqdori 5000 coin</i>",
-        parse_mode="HTML",
-        reply_markup=ReplyKeyboardMarkup(
-            [[KeyboardButton(text=str(balance))]],
-            one_time_keyboard=True,
-            resize_keyboard=True
-        )
-    )
+    if balance:
+      await update.callback_query.edit_message_text(
+          text=f"<b>1 Coin = 1 So'm</b>\n\n"
+              f"Hisobingiz: <b>{balance}</b> coin\n"
+              f"Yechmoqchi bo‘lgan summani kiriting.\n\n"
+              f"<i>Minimal yechish miqdori 5000 coin</i>",
+          parse_mode="HTML",
+          reply_markup=ReplyKeyboardMarkup(
+              [[KeyboardButton(text=str(balance))]],
+              one_time_keyboard=True,
+              resize_keyboard=True
+          )
+      )
     return AMOUNT
 
 async def amount_received(update: Update, context: ContextTypes.DEFAULT_TYPE):
