@@ -70,7 +70,7 @@ async def get_user_keyboard(user_id):
         user_data = await fetch_user_coin(user_id)
         balance = user_data["balance"]
         other_buttons.append(
-            InlineKeyboardButton(text="💰 Pul ishlash", callback_data=f"earn_money_{balance.balance}")
+            InlineKeyboardButton(text="💰 Pul ishlash", callback_data=f"earn_money_{balance}")
         )
 
     # enable_subscription bo'yicha tugma
