@@ -67,7 +67,8 @@ async def get_user_keyboard(user_id):
 
     # enable_monetization bo'yicha tugma
     if config and config.get("enable_monetization", False):
-        balance = await fetch_user_coin(user_id)
+        user_data = await fetch_user_coin(user_id)
+        balance = user_data["balance"]
         other_buttons.append(
             InlineKeyboardButton(text="💰 Pul ishlash", callback_data=f"earn_money_{balance.balance}")
         )
