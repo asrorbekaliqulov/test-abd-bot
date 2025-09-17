@@ -124,4 +124,4 @@ CORS_ALLOW_ALL_ORIGINS = True
 LOCALE_MIDDLEWARE_EXCLUDED_PATHS = ["/media/", "/static/"]
 
 
-BASE_API_URL = "http://127.0.0.1:8001/"
+BASE_API_URL = "https://backend.testabd.uz/"

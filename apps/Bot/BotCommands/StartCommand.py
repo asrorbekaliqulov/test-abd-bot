@@ -17,6 +17,21 @@ API_BASE_URL = f"{BASE_API_URL}system/system-config/"
 
 
 @sync_to_async
+def fetch_user_coin(user_id):
+    """Synchronously fetch SystemConfig from the API."""
+
+    try:
+        user = TelegramUser.objects.get(user_id=user_id)
+        API_TOKEN = user.access_token
+        headers = {"Authorization": f"Bearer {API_TOKEN}"} if API_TOKEN else {}
+        response = requests.get(f"{BASE_API_URL}accounts/user-balance/", headers=headers, timeout=5)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        print(f"Error fetching SystemConfig: {e}")
+        return None
+
+@sync_to_async
 def fetch_system_config(user_id):
     """Synchronously fetch SystemConfig from the API."""
 
@@ -30,7 +45,6 @@ def fetch_system_config(user_id):
     except requests.RequestException as e:
         print(f"Error fetching SystemConfig: {e}")
         return None
-
 
 
 async def get_user_keyboard(user_id):
@@ -53,8 +67,9 @@ async def get_user_keyboard(user_id):
 
     # enable_monetization bo'yicha tugma
     if config and config.get("enable_monetization", False):
+        balance = await fetch_user_coin(user_id)
         other_buttons.append(
-            InlineKeyboardButton(text="💰 Pul ishlash", callback_data="earn_money")
+            InlineKeyboardButton(text="💰 Pul ishlash", callback_data=f"earn_money_{balance.balance}")
         )
 
     # enable_subscription bo'yicha tugma

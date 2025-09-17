@@ -44,11 +44,13 @@ from ..BotHandler import (
     profile_handler,
     Ads_menu,
     Ads_conv_handler,
-    EarnMoneyMenu
+    Withdraw_handler,
+    AdminWithdraw_handler
 )
 from ..Auth import login_conversation
 from datetime import datetime, timedelta
 from ..BotCommands.DownDB import DownlBD
+from ..models.TelegramBot import TelegramUser
 import random
 import os
 from dotenv import load_dotenv
@@ -60,6 +62,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN topilmadi! .env faylini tekshiring.")
+
 
 
 async def schedule_next_bio_update(context):
@@ -99,6 +102,8 @@ def main():
     app.add_handler(login_conversation)
     app.add_handler(Ads_conv_handler)
     app.add_handler(profile_handler)
+    app.add_handler(Withdraw_handler)
+    app.add_handler(AdminWithdraw_handler)
 
     # Inline hanlder
     app.add_handler(CallbackQueryHandler(start, pattern=r"^Main_Menu$"))
@@ -119,13 +124,15 @@ def main():
     app.add_handler(CallbackQueryHandler(TestAbdMenu, pattern=r"^testabd$"))
     app.add_handler(CallbackQueryHandler(button_callback, pattern=r"^(section:|main_menu|back)"))
     app.add_handler(CallbackQueryHandler(button_callback_config, pattern="^edit_config:"))
-    app.add_handler(CallbackQueryHandler(EarnMoneyMenu, pattern=r"^earn_money$"))
+
+    # app.add_handler(CallbackQueryHandler(EarnMoneyMenu, pattern=r"^earn_money$"))
     app.add_handler(CallbackQueryHandler(InlineButton))
 
     # Message handlers
     app.add_handler(MessageHandler(filters.Regex(r"^📊 Stаtistikа$"), start_stats))
     app.add_handler(MessageHandler(filters.Regex(r"^⚙️ Sozlаmаlаr$"), edit_config))
     app.add_handler(MessageHandler(filters.TEXT & filters.REPLY, handle_admin_reply))
+
 
     # Schedule
     if app.job_queue:  # job_queue mavjudligini tekshiramiz
