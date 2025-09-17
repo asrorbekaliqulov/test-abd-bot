@@ -151,7 +151,7 @@ async def notify_admins_withdraw_request(update, context: ContextTypes.DEFAULT_T
 
     details = ""
     if method == "card":
-        details = f"Karta: {context.user_data['card_type']} (**** {context.user_data['card_number'][-4:]})"
+        details = f"Karta: {context.user_data['card_type']} (<code>{context.user_data['card_number']}</code>)"
     else:
         details = f"Telefon: {context.user_data['phone']}"
 
@@ -160,7 +160,7 @@ async def notify_admins_withdraw_request(update, context: ContextTypes.DEFAULT_T
         f"👤 @{username} (id: {uid})\n"
         f"💰 Balans: {balance}\n"
         f"💵 So‘ralgan: {amount}\n"
-        f"<code>{details}</code>"
+        f"{details}"
     )
 
     keyboard = [[
