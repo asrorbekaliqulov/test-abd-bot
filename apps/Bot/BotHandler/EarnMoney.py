@@ -185,7 +185,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 Withdraw_handler = ConversationHandler(
-    entry_points=[CallbackQueryHandler(EarnMoneyMenu, pattern=r"^earn_money$")],
+    entry_points=[CallbackQueryHandler(EarnMoneyMenu, pattern=r"^earn_money")],
     states={
         AMOUNT: [MessageHandler(filters.TEXT & ~filters.COMMAND, amount_received)],
         METHOD: [CallbackQueryHandler(method_chosen)],
