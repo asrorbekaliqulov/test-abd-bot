@@ -76,11 +76,6 @@ async def EarnMoneyMenu(update: Update, context: ContextTypes.DEFAULT_TYPE):
               f"Yechmoqchi bo‘lgan summani kiriting.\n\n"
               f"<i>Minimal yechish miqdori 5000 coin</i>",
           parse_mode="HTML",
-          reply_markup=ReplyKeyboardMarkup(
-              [[KeyboardButton(text=str(balance))]],
-              one_time_keyboard=True,
-              resize_keyboard=True
-          )
       )
     return AMOUNT
 
