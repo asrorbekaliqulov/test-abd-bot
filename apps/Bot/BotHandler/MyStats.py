@@ -427,51 +427,67 @@ async def profile_location(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return LOCATION
 
 async def profile_referrals(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Handle the profile_referrals callback to display referral information."""
+    """Handle the profile_referrals callback to display referral code and last 5 referrals."""
     query = update.callback_query
     await query.answer("Referrallar yuklanmoqda...")
     user_id = update.effective_user.id
 
     try:
-        # Clear cached profile data to ensure fresh data
-        context.user_data.pop('profile_data', None)
+        context.user_data.pop("profile_data", None)
         user = await sync_to_async(TelegramUser.objects.get)(user_id=user_id)
+
         headers = {"Authorization": f"Bearer {user.access_token}"}
-        url = f"{BASE_API_URL}accounts/me/"
 
-        response = await sync_to_async(requests.get)(url, headers=headers)
-
-        if response.status_code == 401:
+        # 1. Referral code olish (accounts/me/)
+        me_url = f"{BASE_API_URL}accounts/me/"
+        me_response = await sync_to_async(requests.get)(me_url, headers=headers)
+        if me_response.status_code == 401:
             refresh_response = await sync_to_async(requests.post)(
                 f"{BASE_API_URL}accounts/token/refresh/",
-                json={"refresh": user.refresh_token}
+                json={"refresh": user.refresh_token},
             )
             if refresh_response.status_code == 200:
                 tokens = refresh_response.json()
-                user.access_token = tokens['access']
+                user.access_token = tokens["access"]
                 await sync_to_async(user.save)()
                 headers["Authorization"] = f"Bearer {user.access_token}"
-                response = await sync_to_async(requests.get)(url, headers=headers)
+                me_response = await sync_to_async(requests.get)(me_url, headers=headers)
             else:
                 await query.message.reply_text("❌ Token yangilashda xatolik yuz berdi.")
                 return ConversationHandler.END
 
-        if response.status_code != 200:
-            raise Exception(f"API request failed with status {response.status_code}")
+        if me_response.status_code != 200:
+            raise Exception(f"API request failed with status {me_response.status_code}")
 
-        data = response.json()
-        context.user_data['profile_data'] = data
-        referral_code = data.get('referral_code', None)
-        referred_users = data.get('referred_users', [])[:5]
-        referrals_text = "\n".join([f"  • @{user.get('username', 'Nomaʼlum')}" for user in referred_users]) if referred_users else "Hali taklif qilingan foydalanuvchilar yo'q."
+        me_data = me_response.json()
+        referral_code = me_data.get("referral_code", None)
 
-        # Add timestamp to ensure message uniqueness
+        # 2. Oxirgi 5 referral olish (referrals/my/)
+        referrals_url = f"{BASE_API_URL}my/referrals-list/"
+        referrals_response = await sync_to_async(requests.get)(referrals_url, headers=headers)
+        if referrals_response.status_code != 200:
+            raise Exception(f"API request failed with status {referrals_response.status_code}")
+
+        referrals = referrals_response.json()
+        last_five = referrals[:5]
+
+        referrals_text = (
+            "\n".join([f"  • @{ref['referred']['username']}" for ref in last_five])
+            if last_five
+            else "Hali taklif qilingan foydalanuvchilar yo'q."
+        )
+
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
         if not referral_code:
-            text = f"""🔗 <b>Referal kodingizni yarating</b>\n\nSizda hali referal kodi yo'q. Taklif qilgan foydalanuvchilaringizni ko'rish uchun avval referal kodi yarating.\n\n<i>Yangilandi: {timestamp}</i>"""
+            text = f"""🔗 <b>Referal kodingizni yarating</b>
+
+Sizda hali referal kodi yo'q. Taklif qilgan foydalanuvchilaringizni ko'rish uchun avval referal kodi yarating.
+
+<i>Yangilandi: {timestamp}</i>"""
             keyboard = [
                 [InlineKeyboardButton("🔗 Kod yaratish", callback_data="create_referral_code")],
-                [InlineKeyboardButton("⬅️ Orqaga", callback_data="profile_main")]
+                [InlineKeyboardButton("⬅️ Orqaga", callback_data="profile_main")],
             ]
         else:
             text = f"""🤝 <b>Referrallar</b>
@@ -482,57 +498,26 @@ async def profile_referrals(update: Update, context: ContextTypes.DEFAULT_TYPE):
 {referrals_text}
 
 <i>Yangilandi: {timestamp}</i>"""
-
             keyboard = [
-                [InlineKeyboardButton("👤 Profil", callback_data="profile_main"),
-                 InlineKeyboardButton("📊 Statistika", callback_data="profile_stats")],
-                [InlineKeyboardButton("🎯 Qiziqishlar", callback_data="profile_categories"),
-                 InlineKeyboardButton("📍 Joylashuv", callback_data="profile_location")],
-                [InlineKeyboardButton("🔄 Referal kodni o'zgartirish", callback_data="change_referral_code"),
-                 InlineKeyboardButton("👥 Barcha referallarni ko'rish", callback_data="view_all_referrals")],
-                [InlineKeyboardButton("🏠 Bosh menyu", callback_data="Main_Menu")]
+                [InlineKeyboardButton("👥 Barcha referallarni ko'rish", callback_data="view_all_referrals")],
+                [InlineKeyboardButton("⬅️ Orqaga", callback_data="profile_main")],
+                [InlineKeyboardButton("🏠 Bosh menyu", callback_data="Main_Menu")],
             ]
 
         reply_markup = InlineKeyboardMarkup(keyboard)
-        profile_image_url = context.user_data.get('profile_image_url')
-        try:
-            if profile_image_url:
-                await query.message.edit_caption(
-                    caption=text,
-                    reply_markup=reply_markup,
-                    parse_mode="HTML"
-                )
-            else:
-                await query.message.edit_text(
-                    text=text,
-                    reply_markup=reply_markup,
-                    parse_mode='HTML'
-                )
-        except Exception as e:
-            if "Message is not modified" in str(e):
-                # If message is not modified, send a new message instead
-                if profile_image_url:
-                    await query.message.reply_photo(
-                        photo=profile_image_url,
-                        caption=text,
-                        reply_markup=reply_markup,
-                        parse_mode="HTML"
-                    )
-                else:
-                    await query.message.reply_text(
-                        text=text,
-                        reply_markup=reply_markup,
-                        parse_mode='HTML'
-                    )
-            else:
-                raise e
+
+        await query.message.edit_text(
+            text=text, reply_markup=reply_markup, parse_mode="HTML"
+        )
 
     except ObjectDoesNotExist:
         await query.message.reply_text("❌ Foydalanuvchi topilmadi.")
         return ConversationHandler.END
     except Exception as e:
         print("Xatolik:", e)
-        await query.message.reply_text(f"❌ Ma'lumotlarni olishda xatolik yuz berdi: {str(e)}")
+        await query.message.reply_text(
+            f"❌ Ma'lumotlarni olishda xatolik yuz berdi: {str(e)}"
+        )
         return ConversationHandler.END
 
     return REFERRALS
@@ -652,7 +637,7 @@ async def change_referral_code(update: Update, context: ContextTypes.DEFAULT_TYP
         return ConversationHandler.END
 
 async def view_all_referrals(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Handle viewing all referred users."""
+    """Handle the view_all_referrals callback to display all referrals with count."""
     query = update.callback_query
     await query.answer("Barcha referallar yuklanmoqda...")
     user_id = update.effective_user.id
@@ -660,17 +645,18 @@ async def view_all_referrals(update: Update, context: ContextTypes.DEFAULT_TYPE)
     try:
         user = await sync_to_async(TelegramUser.objects.get)(user_id=user_id)
         headers = {"Authorization": f"Bearer {user.access_token}"}
-        url = f"{BASE_API_URL}accounts/me/"
+        url = f"{BASE_API_URL}my/referrals-list/"
 
         response = await sync_to_async(requests.get)(url, headers=headers)
+
         if response.status_code == 401:
             refresh_response = await sync_to_async(requests.post)(
                 f"{BASE_API_URL}accounts/token/refresh/",
-                json={"refresh": user.refresh_token}
+                json={"refresh": user.refresh_token},
             )
             if refresh_response.status_code == 200:
                 tokens = refresh_response.json()
-                user.access_token = tokens['access']
+                user.access_token = tokens["access"]
                 await sync_to_async(user.save)()
                 headers["Authorization"] = f"Bearer {user.access_token}"
                 response = await sync_to_async(requests.get)(url, headers=headers)
@@ -681,44 +667,40 @@ async def view_all_referrals(update: Update, context: ContextTypes.DEFAULT_TYPE)
         if response.status_code != 200:
             raise Exception(f"API request failed with status {response.status_code}")
 
-        data = response.json()
-        context.user_data['profile_data'] = data
-        referrals = data.get('referred_users', [])
-        referrals_text = "\n".join([f"  • @{user.get('username', 'Nomaʼlum')}" for user in referrals]) if referrals else "Hali taklif qilingan foydalanuvchilar yo'q."
+        referrals = response.json()
+        total_count = len(referrals)
 
-        text = f"""🤝 <b>Barcha referallar</b>
-
-👥 <b>Taklif qilingan foydalanuvchilar:</b>
-{referrals_text}"""
+        if not referrals:
+            text = "👥 Siz hali hech kimni taklif qilmagansiz."
+        else:
+            text = f"👥 <b>Barcha referallar ({total_count} ta):</b>\n\n"
+            for idx, ref in enumerate(referrals, start=1):
+                username = ref["referred"].get("username", "Nomaʼlum")
+                text += f"{idx}. @{username}\n"
 
         keyboard = [
-            [InlineKeyboardButton("⬅️ Orqaga", callback_data="profile_referrals")]
+            [InlineKeyboardButton("⬅️ Orqaga", callback_data="profile_referrals")],
+            [InlineKeyboardButton("🏠 Bosh menyu", callback_data="Main_Menu")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
-        profile_image_url = context.user_data.get('profile_image_url')
-        if profile_image_url:
-            await query.message.edit_caption(
-                caption=text,
-                reply_markup=reply_markup,
-                parse_mode="HTML"
-            )
-        else:
-            await query.message.edit_text(
-                text=text,
-                reply_markup=reply_markup,
-                parse_mode='HTML'
-            )
+        await query.message.edit_text(
+            text=text, reply_markup=reply_markup, parse_mode="HTML"
+        )
 
     except ObjectDoesNotExist:
         await query.message.reply_text("❌ Foydalanuvchi topilmadi.")
         return ConversationHandler.END
     except Exception as e:
         print("Xatolik:", e)
-        await query.message.reply_text(f"❌ Ma'lumotlarni olishda xatolik yuz berdi: {str(e)}")
+        await query.message.reply_text(
+            f"❌ Ma'lumotlarni olishda xatolik yuz berdi: {str(e)}"
+        )
         return ConversationHandler.END
 
     return REFERRALS
+
+
 
 async def edit_profile_main(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle the edit_profile_main callback to show editable profile fields."""

@@ -49,13 +49,6 @@ def fetch_user_coin(user_id: int):
         print(f"Error fetch_user_coin: {e}")
         return None
 
-@sync_to_async
-def withdraw_request(token: str, amount: int):
-    url = f"{BASE_API_URL}accounts/withdraw-coin/"
-    headers = {"Authorization": f"Bearer {token}"}
-    payload = {"amount": amount}
-    resp = requests.post(url, json=payload, headers=headers)
-    return resp.status_code, resp.json() if resp.content else {}
 
 # --- User Flow ---
 async def EarnMoneyMenu(update: Update, context: ContextTypes.DEFAULT_TYPE):
