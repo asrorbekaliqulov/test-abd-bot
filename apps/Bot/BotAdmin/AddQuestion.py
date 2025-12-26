@@ -66,7 +66,7 @@ async def start_create_question(update: Update, context: ContextTypes.DEFAULT_TY
     # Foydalanuvchi testlarini olish
     try:
         response = requests.get(
-            f"{BACKEND_URL}/quiz/tests/my_tests",
+            f"{BACKEND_URL}/quiz/tests/my_tests/",
             headers=get_headers(access_token),
             timeout=10
         )
