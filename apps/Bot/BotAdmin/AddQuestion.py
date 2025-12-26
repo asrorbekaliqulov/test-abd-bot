@@ -256,7 +256,7 @@ async def handle_category_selection(update: Update, context: ContextTypes.DEFAUL
         
         try:
             response = requests.post(
-                f"{BACKEND_URL}/quiz/tests",
+                f"{BACKEND_URL}/quiz/tests/",
                 headers=get_headers(access_token),
                 json=test_data,
                 timeout=10
