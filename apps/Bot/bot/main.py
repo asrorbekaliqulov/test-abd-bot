@@ -17,7 +17,8 @@ from ..BotAdmin import (
     edit_config,
     button_callback_config,
     handle_config_input,
-    edit_config
+    edit_config,
+    get_create_question_handler
 )
 from telegram.ext import (
     Application,
@@ -80,6 +81,9 @@ async def schedule_next_bio_update(context):
 def main():
     # Application yaratishda persistence va job_queue parametrlarini qo'shamiz
     app = Application.builder().token(TOKEN).build()
+
+    app.add_handler(get_create_question_handler())
+
 
     # Commands
     app.add_handler(CommandHandler("start", start))
